@@ -32,7 +32,7 @@ The threads use the counter to add and subtract values.
 
 ## 2. Implications for Multi-threaded Applications
 
-How might this affect real applications?  
+-2: This will happen when 2 user using same data in the same time.
 
 ## 3. Counter with ReentrantLock
 
@@ -55,11 +55,15 @@ Use when multi-thread using same resource.
 
 ## 5. Counter with AtomicLong
 
-answer question 5
+-5.1: Because it's a safe thread.
+
+-5.2: Because we use long in Count and it atomically adds the given value to the current value.
 
 ## 6. Analysis of Results
 
-answer question 6
+-6.1: Atomic is the fastest then Synchronized and ReentrantLock is slowest.
+
+-6.2: Synchronized because it's flexible and easy to use.
 
 ## 7. Using Many Threads (optional)
 

@@ -18,12 +18,12 @@ public class Counter {
 	 */
 	public long get() { return total; }
 	
-	public static void main(String[] args) {
-		Counter c = new Counter();
-		c.add(50);
-		c.add(-15);
-		System.out.println(c.get());
-		c.add(-34);
-		System.out.println(c.get());
-	}
+//	public static void main(String[] args) {
+//		Counter c = new Counter();
+//		c.add(50);
+//		c.add(-15);
+//		System.out.println(c.get());
+//		c.add(-34);
+//		System.out.println(c.get());
+//	}
 }

@@ -1,5 +1,10 @@
 import java.util.concurrent.atomic.AtomicLong;
 
+/**
+ * Count using AtomicLong.
+ * @author Phanuwatch Luangpradit
+ *
+ */
 public class AtomicCounter extends Counter{
 
 	private AtomicLong total;
